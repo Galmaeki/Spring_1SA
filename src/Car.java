@@ -48,7 +48,6 @@ public abstract class Car extends People{
     public void userinfo(){
         System.out.println("현재 승객 수 : "+user);
         System.out.println("빈자리 :"+(maxuser-user));
-        System.out.println("요금 :"+fee);
         System.out.println("누적 요금:"+earnMoney);
     }
     public void carinfo(){

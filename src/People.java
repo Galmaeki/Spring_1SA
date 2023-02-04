@@ -1,6 +1,5 @@
 public class People {
     int user;
-    //탑승가능로직이랑 탑승불가로직을 여기서 구현
     public void getout(int num){
         System.out.println(num+"명 하차!");
         user-=num;
