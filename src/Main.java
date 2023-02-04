@@ -27,17 +27,17 @@ public class Main {
 }
 class TaxiMain{
     public static void main(String[] args) {
-    Taxi tx1 = new Taxi();
-    Taxi tx2 = new Taxi();
-    tx1.carinfo();
-    tx1.speed(20);
-    tx1.ride(5,"서울역",5);
-    tx1.ride(3,"서울역",5);
-    tx1.ride(1,"어디로든문",2);
-    tx1.userinfo();
-    tx1.bye();
-    tx1.userinfo();
-    tx1.usegas(95);
+        Taxi tx1 = new Taxi();
+        Taxi tx2 = new Taxi();
+        tx1.carinfo();
+        tx1.speed(20);
+        tx1.ride(5,"서울역",5);
+        tx1.ride(3,"서울역",5);
+        tx1.ride(1,"어디로든문",2);
+        tx1.userinfo();
+        tx1.bye();
+        tx1.userinfo();
+        tx1.usegas(95);
         tx1.ride(1,"어디로든문",2);
     }
 }
